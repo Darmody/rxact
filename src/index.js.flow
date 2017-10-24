@@ -1,0 +1,11 @@
+// @flow
+import type { IStateStream } from './stateStream'
+import type { Setup, Teardown } from './helpers'
+import type { GetObservable } from './observable'
+import type { IsObservable } from './utils/isObservable'
+
+declare export var StateStream: Class<IStateStream>
+declare export var setup: Setup
+declare export var teardown: Teardown
+declare export var getObservable: GetObservable
+declare export var isObservable: IsObservable

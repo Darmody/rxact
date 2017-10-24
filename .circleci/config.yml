@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.4.0
+
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+          - yarn-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
+      - run: yarn install
+      - save_cache:
+          paths:
+            - node_modules
+          key: yarn-{{ arch }}-{{ .Branch }}-{{ checksum "package.json" }}
+      - run: yarn run coverage
+      - run: cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js
