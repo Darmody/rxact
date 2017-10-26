@@ -9,6 +9,10 @@ Rxact 是一个基于 `Observable` 实现的 `Javascript app` 应用管理库。
 ## 介绍
 Rxact 致力于帮助应用管理数据与业务逻辑，与 Redux 等 state 容器不同的是，Rxact 在管理 state 之外，还会帮助开发者很好地封装应用逻辑。需要注意的是，使用 Rxact 将会涉及 **reactive programing** 的概念，请确保这是你熟悉或希望使用的特性。
 
+## 文档
+
+* [API 手册](https://darmody.gitbooks.io/rxact-chinese/content/)
+
 ## 核心概念
 
 ### 没有 Store
@@ -104,10 +108,6 @@ stream.increment(2)
 * [Rxact-Debugger](https://github.com/Darmody/rxact-debugger) `Rxact` 调试插件，可以在浏览器控制台下调用 `StateStream`， 并有友好的日志帮助调试。
 * [Rxact-Rxjs](https://github.com/Darmody/rxact-rxjs) `Rxact` 天然支持 `Rxjs`, 这个组件提供了更高级的功能支持。
 * [Rxact-Xstream](https://github.com/Darmody/rxact-xstream) `Rxact` 对 `xstream` 的支持。
-
-## 文档
-
-敬请期待...
 
 ## 协议
 

@@ -6,11 +6,15 @@
 
 Rxact is an observable application management for Javascript app.
 
-[中文文档](https://github.com/Darmody/rxact/blob/master/CHINESE.md)
+[中文 README](https://github.com/Darmody/rxact/blob/master/CHINESE.md)
 
 ## Introduction
 
 Rxact help developer managing application logic and state. Rxact is related to reactive programing, make sure it is what you are familiar with or you want.
+
+## Docs
+
+* [API Document](https://darmody.gitbooks.io/rxact/content/)
 
 ## Core Concept
 
@@ -108,10 +112,6 @@ You can enhance `Rxact` by adding plugins.
 * [Rxact-Debugger](https://github.com/Darmody/rxact-debugger) debugging and friendly log.
 * [Rxact-Rxjs](https://github.com/Darmody/rxact-rxjs) `Rxact` support `Rxjs` natively, but you can get advanced function here.
 * [Rxact-Xstream](https://github.com/Darmody/rxact-xstream) Combine `Rxact` and `xstream`.
-
-## Docs
-
-Coming soon ...
 
 ## Lisence
 
